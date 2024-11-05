@@ -48,8 +48,25 @@ div.separator {
   background:linear-gradient(#00000000,#00000000,#000000FF);
   aspect-ratio:1920/1200;
 }
-#logo{
+.ygradient *{
   position:relative;
+  top:30%;
+  z-index:-1;
+}
+.ygradient > *{
+  position:absolute;
+  top:30%;
+  z-index:-1;
+}
+.ygradient p{
+  font-size:32px;
+  left:10%;
+  max-width:50%;
+  font-family:sans-serif;
+  padding:5px;
+  background:#0088001F;
+}
+#logo{
   width:15%;
   left:75%;
   top:30%;
